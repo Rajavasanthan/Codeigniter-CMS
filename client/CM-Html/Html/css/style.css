@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{margin:0px; padding:0px; font-family: Arial, Helvetica, sans-serif; text-align:center; color:#000;}
+img{border:0px;}
+.headcont{width:100%; height:174x; border-top:7px solid #228974; background-color:#FFF;}
+.cmlogo{width:242px; height:136px; background-image:url(../images/cmlogo.png); margin:14px auto;}
+
+.menucont{width:100%; height:54px; border-top:1px solid #e8e6e7; border-bottom:3px solid #e2e5b6; border-left:none; border-right:none; background-color:#FFF; }
+.menudiv{width:1020px; margin:0 auto; text-align:left;}
+.menudiv ul{margin:0px; padding:0px; width:100%; float:left;}
+.menudiv ul li{list-style:none; padding:0px 20px; margin:0px; float:left; line-height:54px; font-size:13px; color:#666666; text-transform:uppercase; letter-spacing:0.5px; background-color:#FFF; border-right:1px solid #e8e6e7; height:54px;}
+.menudiv ul li:first-child{border-left:1px solid #e8e6e7;}
+.menudiv ul li.sel{background-color:#228976; color:#FFF;}
+.menudiv ul li a{color:#666666; text-decoration:none;}
+.menudiv ul li.search{float:right; border-left:1px solid #e8e6e7; padding:0px 5px;}
+.menudiv ul li.search .serico{background-image:url(../images/ser-ico.png); width:40px; height:40px; margin:8px 0 0 0px; cursor:pointer;}
+
+.smbg{background-color:#fff; border:1px solid #ccc; border-right:0px; border-radius:0px; box-shadow:0 0 5px #999; height:240px; overflow:hidden; position:fixed; right:0; top:33%; width:54px;}
+.fb, .twi, .gpls, .pin, .flkr{width:40px; height:40px; float:left; cursor:pointer; margin:6px 0 0 7px;}
+.fb{background-image:url(../images/fb.png);}
+.twi{background-image:url(../images/twi.png);}
+.gpls{background-image:url(../images/gpls.png);}
+.pin{background-image:url(../images/pin.png);}
+.flkr{background-image:url(../images/flkr.png);}
+
+/**Content Arer**/
+.maincont{width:100%; background-color:#f3efbf;}
+.maindiv{width:1020px; margin:0px auto; text-align:left; padding:30px 0 30px 0;}
+.banner{width:1020px; height:363px; position:relative;}
+.banner img{width:1020px; height:363px; border:0px;}
+
+.artcles{width:1020px; height:360px; background-color:#FFF; margin-top:20px; box-shadow:0 0px 1px #AAA;}
+.artcles .lft{float:left; width:678px; padding:15px; border-right:1px solid #e7e7e7; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+.artcles .lft img{width:648px; height:330px; border:0px;}
+.artcles .rgt{float:left; width:342px; height:360px; position:relative;}
+.artcles .rgt .cont{padding:20px 30px; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+.artcles .rgt .cont h4{font-size:24px; color:#333; letter-spacing:1px; margin:0; padding:0px; line-height:36px; font-family:Georgia, "Times New Roman", Times, serif; font-weight:normal}
+.artcles .rgt .cont p{font-size:16px; color:#666; letter-spacing:0.5px; margin:0; padding:15px 0; line-height:24px;}
+.artcles .rgt .cont span{font-size:12px; color:#999; letter-spacing:0.5px;}
+.artcles .actions{width:342px; height:56px; border-top:1px solid #e7e7e7; position:absolute; bottom:0px; left:0px;}
+.artcles .actions > div{border-right:1px solid #e7e7e7; width:56px; height:56px; float:left;}
+.artcles .actions > div:last-child{border-right:none;}
+.artcles .actions > div span{line-height:56px; color:#666; font-size:12px; float:left; cursor:pointer;}
+.artcles .actions > div span:hover{text-decoration:underline;}
+.rply{background-image:url(../images/rply.png); width:40px; height:40px; margin:8px 0 0 8px; cursor:pointer;}
+.cmts{background-image:url(../images/cmts.png); width:40px; height:40px; margin:10px -5px 0 15px; float:left; cursor:pointer;}
+.more{background-image:url(../images/more.png); width:40px; height:40px; margin:8px 0 0 8px; cursor:pointer;}
+
+/**About Us**/
+.contarea{width:1020px; background-color:#FFF; box-shadow:0 0px 1px #AAA; display:table;}
+.contarea .lft{display:table-cell; width:300px; padding:40px 0 40px 40px; vertical-align:top;}
+.contarea .rgt{display:table-cell; padding:40px; vertical-align:top;}
+.contarea .rgt h2{font-size:32px; font-style:italic; color:#333; letter-spacing:1px; margin:0; padding:0px; line-height:36px; font-family:Georgia, "Times New Roman", Times, serif; font-weight:normal}
+.contarea .rgt p{font-size:14px; color:#333; letter-spacing:0.5px; margin:0; padding:20px 0 0 0; line-height:26px;}
+
+/**Blogs**/
+.blogarea{width:1020px; display:table;}
+.blogarea .lft{display:table-cell; width:250px; padding:0px 30px 0px 0; vertical-align:top;}
+.blogarea .lft h4{font-size:18px; background-color:#747357; color:#FFF; letter-spacing:1px; margin:0; padding:0px 20px; line-height:50px; font-family:Georgia, "Times New Roman", Times, serif; font-weight:normal; text-transform:uppercase; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+.blogarea .lft ul{width:100%; float:left; padding:0px; margin:0px; box-shadow:0 0 4px #999;}
+.blogarea .lft ul li{list-style:none; padding:0px 20px; margin:0px; float:left; height:50px; line-height:50px; font-size:14px; font-weight:bold;  letter-spacing:0.5px; background-color:#FFF; border-bottom:1px dotted #c6bdc0; width:100%; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
+.blogarea .lft ul li.sel{background-color:#228976; color:#FFF;}
+.blogarea .lft ul li a{color:#666666; text-decoration:none;}
+.blogarea .lft ul li.sel a{color:#FFF; text-decoration:none;}
+.blogarea .lft ul li a:hover{text-decoration:none;}
+.blogarea .rgt{display:table-cell; padding:0px; vertical-align:top;}
+.blogarea .rgt .artcles{width:740px; height:310px; background-color:#FFF; margin-top:0px; margin-bottom:20px; box-shadow:0 0px 1px #AAA;}
+.blogarea .rgt .artcles .lft{float:left; width:398px; padding:15px; border-right:1px solid #e7e7e7; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+.blogarea .rgt .artcles .lft img{width:368px; height:280px; border:0px;}
+.blogarea .rgt .artcles .rgt{float:left; width:342px; height:310px; position:relative;}
+
+/**Gallery**/
+.galry{background-color:#FFF; padding:20px;}
+.galry ul{margin:0px 0 20px 0; padding:0px; width:100%; float:left;}
+.galry ul:last-child{margin-bottom:0px;}
+.galry ul li{float:left; list-style:none; margin-right:20px; border:1px solid #dcdcdc; background-color:#FFF; padding:4px; width:218px; height:160px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
+.galry ul li:last-child{margin-right:0px;}
+.galry ul li img{width:208px; height:150px; cursor:pointer;}
+
+
+/**Footer**/
+.footcont{width:100%; height:80px; background-color:#105c50;}
+.footdiv{margin:0 auto; width:1020px; text-align:left;}
+.footdiv .lft{width:450px; float:left; color:#FFF; line-height:80px; font-size:11px; font-family:Verdana, Geneva, sans-serif;}
+.footdiv .rgt{width:550px; float:right; line-height:80px; text-align:right; font-size:11px; font-family:Verdana, Geneva, sans-serif; color:#FFF;}
+.footdiv .rgt a{color:#fff; text-decoration:underline;}
+.footdiv .rgt a:hover{ text-decoration:none;}
+

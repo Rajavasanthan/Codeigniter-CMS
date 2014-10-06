@@ -37,6 +37,8 @@
         <script type="text/javascript" src="<?php echo base_url('js/tagging/bootstrap-tagsinput.min.js'); ?>"></script>
         <script type="text/javascript" src="<?php echo base_url('js/tagging/bootstrap-tagsinput.min.js.map'); ?>"></script>
         <script src="<?php echo base_url('js/typeahead.bundle.js'); ?>"></script>
+        <script src="<?php echo base_url('ckeditor/ckeditor.js'); ?>"></script>
+
        
         
         
